@@ -156,3 +156,26 @@ section#habilidades h2 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+button{
+    border-radius: 10px;
+    border-color: rgb(9, 9, 224);
+    width: 150px;
+    height: 30px;
+}
+
+button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.425);
+    color: brown;
+}
