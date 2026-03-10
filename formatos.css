@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(0, 103, 143);
+  --primary-color: black;
 }
 
 html {
@@ -76,7 +76,7 @@ nav ul li a:hover{
   border-radius: 50%;
   object-fit: cover;
   flex-shrink:0;
-  border: 5px solid var(--primary-color);
+  border: 5px solid #00678f;
 }
 
 
