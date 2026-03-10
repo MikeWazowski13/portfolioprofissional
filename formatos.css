@@ -81,7 +81,7 @@ nav ul li a:hover{
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #134758;
+  background-color: #fdfdfd;
   margin: 0;
   padding: 0;
 }
@@ -141,13 +141,13 @@ section#habilidades h2 {
 }
 
 /* Cores das barras */
-.progress.html { width: 10%; background-color: #e34c26; }
-.progress.css { width: 10%; background-color: #264de4; }
-.progress.js { width: 10%; background-color: #f0db4f; color:#000; }
-.progress.react { width: 10%; background-color: #61dafb; color:#000; }
-.progress.git { width: 10%; background-color: #f1502f; }
-.progress.github { width: 10%; background-color: #000; }
-.progress.uiux { width: 10%; background-color: #6a0dad; }
+.progress.html { width: 90%; background-color: #e34c26; }
+.progress.css { width: 90%; background-color: #264de4; }
+/* .progress.js { width: 10%; background-color: #f0db4f; color:#000; } */
+/* .progress.react { width: 10%; background-color: #61dafb; color:#000; } */
+.progress.git { width: 90%; background-color: #e97e68; }
+.progress.github { width: 90%; background-color: #000; }
+.progress.uiux { width: 80%; background-color: #6a0dad; }
 
 /* Coluna da imagem */
 .image img {
