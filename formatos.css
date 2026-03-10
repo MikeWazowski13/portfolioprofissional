@@ -79,4 +79,80 @@ nav ul li a:hover{
   border: 5px solid #00678f;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #134758;
+  margin: 0;
+  padding: 0;
+}
 
+section#habilidades {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+section#habilidades h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Layout lado a lado */
+.container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* Coluna das habilidades */
+.skills {
+  flex: 1;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill p {
+  margin: 0 0 8px;
+  font-weight: bold;
+  color: #444;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress {
+  height: 100%;
+  text-align: right;
+  padding-right: 5px;
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+  transition: width 1.5s ease-in-out;
+}
+
+/* Cores das barras */
+.progress.html { width: 10%; background-color: #e34c26; }
+.progress.css { width: 10%; background-color: #264de4; }
+.progress.js { width: 10%; background-color: #f0db4f; color:#000; }
+.progress.react { width: 10%; background-color: #61dafb; color:#000; }
+.progress.git { width: 10%; background-color: #f1502f; }
+.progress.github { width: 10%; background-color: #000; }
+.progress.uiux { width: 10%; background-color: #6a0dad; }
+
+/* Coluna da imagem */
+.image img {
+  max-width: 250px;   /* largura fixa */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
