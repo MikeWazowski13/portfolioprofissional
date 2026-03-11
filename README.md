@@ -1,0 +1,1 @@
+"Neste projeto acadêmico em grupo, atuei como responsável técnico pela infraestrutura de versionamento (Git/GitHub), resolvendo conflitos de código da equipe e garantindo o deploy final. Estruturei a arquitetura inicial do site em HTML5/CSS3, focando em semântica e organização."
